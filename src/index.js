@@ -4,7 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// const name = 'Hugo Mafra';
+// const element = <h1>Hello, {name}</h1>;
+
 ReactDOM.render(
+  // element,
+  // <h1>Hello, World!</h1>,
   <React.StrictMode>
     <App />
   </React.StrictMode>,
