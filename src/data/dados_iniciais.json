@@ -5,13 +5,13 @@
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Aprender front end",
+        "url": "./"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Motivação policia federal",
+          "url": "https://www.youtube.com/watch?v=KY_GKMHm4cE"
         },
         {
           "titulo": "SEO com React",
@@ -47,8 +47,8 @@
       "titulo": "Back End",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Aprender back end",
+        "url": "./"
       },
       "videos": [
         {
@@ -77,7 +77,7 @@
       "titulo": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
+        "text": "Aprender data science",
         "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
@@ -102,22 +102,26 @@
     {
       "titulo": "Filmes",
       "cor": "orange",
+      "link_extra": {
+        "text": "Filmes favoritos",
+        "url": "./"
+      },
       "videos": [
         {
           "titulo": "Interestellar",
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Harry Potter e a Camera Secreta",
+          "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
         },
         {
           "titulo": "A Chegada",
           "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "O Iluminado",
+          "url": "https://www.youtube.com/watch?v=m6FRnb2AvvE"
         }
       ]
     },
@@ -125,7 +129,7 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "Aprender desenvolvimento de jogos",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
@@ -155,8 +159,8 @@
       "titulo": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Cursos sobre aprendizado",
+        "url": "./"
       },
       "videos": [
         {

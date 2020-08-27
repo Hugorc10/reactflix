@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+// export const BannerMainContainer = styled.section
+
 export const VideoContainer = styled.div`
   position: relative;
   overflow: hidden;
