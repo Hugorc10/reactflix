@@ -1,7 +1,7 @@
 import React from 'react';
 import { FooterBase } from './styles';
 import Logo from '../../assets/img/Logo.png';
-import { LogoImage, MenuWrapper, ButtonLink } from '../Menu/style.js';
+import { LogoImage } from '../Menu/style.js';
 
 function Footer() {
   return (

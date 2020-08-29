@@ -5,6 +5,7 @@ import dadosIniciais from './data/dados_iniciais.json';
 import BannerMain from './components/BannerMain';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer'
+// import WatchButton from './components/BannerMain/styles'
 
 const AppWrapper = styled.div`
   background: var(--grayDark);
@@ -20,13 +21,15 @@ function App() {
   return (
     <AppWrapper>
       <Menu />
-      
+
       <BannerMain 
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Victoria S2"}
+        videoDescription={"Ei be, estou com saudades :3"}
       />
- 
+
+      {/* <WatchButton as="a" href="https://www.youtube.com/watch?v=Uh0Kn2aXEqY"></WatchButton> */}
+      
       <Carousel
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}

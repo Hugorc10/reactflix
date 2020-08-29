@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/img/Logo.png';
-import { LogoImage, MenuWrapper, ButtonLink } from './style.js'
+import { LogoImage, MenuWrapper } from './style.js'
 import Button from '../Button';
+// import WatchButton from '../BannerMain/styles.js'
 
 function Menu () {
   return (
@@ -10,10 +11,14 @@ function Menu () {
         <LogoImage className="Logo" src={Logo} alt="Huflix logo" />
       </a>
 
-      <Button as="a" className="Button" href="/">
+      <Button as="a" href="/">
         Novo vídeo
       </Button>
-    </MenuWrapper>  
+
+      {/* <WatchButton as="a" href="https://youtu.be/KY_GKMHm4cE">
+        Assistir
+      </WatchButton> */}
+    </MenuWrapper>
   );
 }
 
