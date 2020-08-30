@@ -1,23 +1,23 @@
 import React from 'react';
 import styled from 'styled-components'; 
-import Menu from './components/Menu';
-import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer'
+import Menu from '../../components/Menu';
+import dadosIniciais from '../../data/dados_iniciais.json';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer'
 // import WatchButton from './components/BannerMain/styles'
 
 const AppWrapper = styled.div`
   background: var(--grayDark);
 
-  padding-top: 94px;
+  padding-top: 0;
 
   @media(max-width: 800px) {
-    padding-top: 40px;
+    padding-top: 0;
   }
 `
 
-function App() {
+function Home() {
   return (
     <AppWrapper>
       <Menu />
@@ -54,8 +54,9 @@ function App() {
       <Footer
       
       />
+      
     </AppWrapper>
   );
 }
 
-export default App;
+export default Home;

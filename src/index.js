@@ -1,16 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './reset.css';
 
-// const name = 'Hugo Mafra';
-// const element = <h1>Hello, {name}</h1>;
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
+
+// Desafio master blaster na descricao
+const Pagina404 = () => (<div>Página 404</div>)
 
 ReactDOM.render(
-  // element,
-  // <h1>Hello, World!</h1>,
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route path="/cadastro/video" component={CadastroVideo} />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route component={Pagina404} />
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );

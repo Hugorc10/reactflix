@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 export const VideoContainer = styled.div`
   position: relative;
+  top: 50px;
   padding-top: 56.25%;
   width: 100%;
   

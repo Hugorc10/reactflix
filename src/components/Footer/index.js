@@ -1,13 +1,12 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import Logo from '../../assets/img/Logo.png';
-import { LogoImage } from '../Menu/style.js';
 
 function Footer() {
   return (
     <FooterBase>
       <a href="./">
-        <LogoImage className="Logo" src={Logo} alt="Huflix logo" />
+        <img src="https://upload.wikimedia.org/wikipedia/pt/b/bd/Point_Blank_Logo.jpg" 
+        height="100" alt="Logo Linux" />
       </a>
       <p>
         Criado por
