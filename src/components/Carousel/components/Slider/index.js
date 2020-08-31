@@ -3,6 +3,7 @@ import SlickSlider from 'react-slick'
 import styled from 'styled-components'
 
 const Container = styled.ul`
+  /* color: var(--primary); */
   padding: 0;
   margin: 0;
   .slick-prev,
@@ -42,10 +43,23 @@ const Slider = ({ children }) => (
     <SlickSlider {...{
       dots: false,
       infinite: false,
+      focusOnSelect: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       speed: 300,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: true
+          }
+        },
+      ]
     }}
     >
       {children}
